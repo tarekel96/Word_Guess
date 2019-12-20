@@ -2,6 +2,15 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-#about {
-  display: none;
+#mystery-word {
+  font-size: 4rem;
+}
+
+#input-word {
+  margin-top: 2rem;
+  width: 60%;
+  height: 4rem;
+  font-size: 4rem;
+  text-align: center;
+  /* height: 100vh; */
 }

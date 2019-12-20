@@ -26,24 +26,34 @@
     <header>
       <h1 class="text-center mt-5">JAWS the Word Guess Game</h1>
       <div class="d-flex justify-content-center">
-        <button type="button" id="about-btn" class="btn btn-light" onclick="">
+        <button type="button" id="about-btn" class="btn btn-light mt-4" onclick="">
           ABOUT
         </button>
       </div>
-      <div id="about" class="text-center">
+      <div id="about" class="text-center mt-4" hidden>
         <h4>The Game:</h4>
         <p>You are trapped underwater surronded by a Great White!!</p>
         <p>
-          Try to guess the word. You have a limited number of guesses that
+          Try to guess the word. You have a limited number of guesses that is
           porportionally related to the number of letters in the word.
         </p>
         <p>
           If you are able to guess the word correctly before running out of
           attempts, you will be saved!
         </p>
-        <p>Otherwise the Shark will get you!</p>
+        <p>Otherwise, the Shark will get you!</p>
       </div>
     </header>
+    <section id='mystery-container'>
+      <div class="pl-4 d-flex justify-content-center text-center">
+        <p id="mystery-word"></p>
+      </div>
+    </section>
+    <section id='input-container' class='d-flex justify-content-center'>
+      <input type='text' id='input-word'></input>
+    </section>
+
+    </body>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
