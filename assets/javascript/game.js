@@ -17,9 +17,13 @@ function displayUnderlines() {
   let chosen = wordList[Math.floor(Math.random() * (wordList.length - 1))];
   console.log(chosen);
   for (letter of chosen) {
-    let node = document.createElement("SPAN");
-    node.innerHTML = " _ ";
-    mysteryWord.appendChild(node);
+    let nodeDiv = document.createElement("DIV");
+    let nodeSpan = document.createElement("SPAN");
+
+    nodeSpan.innerHTML = letter;
+    nodeDiv.innerHTML = "_";
+    mysteryWord.appendChild(nodeSpan);
+    nodeSpan.appendChild(nodeDiv);
   }
   console.log(letterArray[0]);
 }

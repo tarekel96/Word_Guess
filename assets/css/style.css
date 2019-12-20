@@ -4,6 +4,8 @@ body {
 
 #mystery-word {
   font-size: 4rem;
+  display: flex;
+  padding: 0;
 }
 
 #input-word {
