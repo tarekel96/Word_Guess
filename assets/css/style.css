@@ -2,10 +2,15 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+#about-btn {
+  margin-bottom: 1.5rem;
+}
+
 #mystery-word {
   font-size: 4rem;
   display: flex;
-  padding: 0;
+  padding: 2rem 4rem 2rem 4rem;
+  border: dotted black 0.3rem;
 }
 
 #input-word {
